@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Images and Artifacts</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: #f4f4f4; /* Light background color for readability */
+    }
+
+    header {
+      background-color: #6f4e44;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      background: url('09.png') center/cover no-repeat; 
+      color: #333;
+      border-radius: 50%;
+      padding: 10px 20px;
+      font-weight: bold;
+
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery h2 {
+      font-size: 2em;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .gallery-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .gallery-item {
+      background-color: white;
+      border-radius: 8px;
+      padding: 10px;
+      margin: 10px;
+      width: 200px; /* Fixed width for gallery items */
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery-item img {
+      max-width: 100%;
+      height: auto; /* Make images responsive */
+      border-radius: 8px;
+      margin-bottom: 10px; /* Space between image and text */
+    }
+
+    .gallery-item p {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"></div>
+  <nav>
+    <a href="kj.html">Home</a>
+    <a href="wayayo.html">The Seven Events</a>
+    <a href="kuyagood.html">Gallery</a>
+    <a href="bright.html">Timeline</a>
+    <a href="bobo.html">About</a>
+    <a href="wow.html">Contact</a>
+
+  </nav>
+</header>
+
+<section class="gallery">
+  <h2>Gallery - Images and Artifacts</h2>
+  <div class="gallery-grid">
+    <div class="gallery-item">
+      <img src="tt.png" />
+      <p>Christmas Truce Artifact</p>
+    </div>
+    <div class="gallery-item">
+      <img src="yy.png" />
+      <p>Hong Kong Falls Artifact</p>
+    </div>
+    <div class="gallery-item">
+      <img src="11.png" />
+      <p>Charlemagne Artifact</p>
+    </div>
+    <div class="gallery-item">
+      <img src="55.png" />
+      <p>Washington Crossing Artifact</p>
+    </div>
+    <div class="gallery-item">
+      <img src="44.png" />
+      <p>USSR Invasion Artifact</p>
+    </div>
+    <div class="gallery-item">
+      <img src="33.png" />
+      <p>Apollo 8 Artifact</p>
+    </div>
+    <div class="gallery-item">
+      <img src="22.png" />
+      <p>Gorbachev Resignation Artifact</p>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

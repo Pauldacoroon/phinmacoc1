@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Historical Gallery</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background: #f4f4f4; /* Light background color for readability */
+    }
+
+    header {
+      background-color: #6f4e44;
+      color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      background: url('09.png') center/cover no-repeat; 
+      color: #333;
+      border-radius: 50%;
+      padding: 10px 20px;
+      font-weight: bold;
+
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    section.contact {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    section.contact h2 {
+      font-size: 2em;
+      color: #333;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    section.contact p {
+      color: #666;
+      line-height: 1.6;
+      margin: 10px 0;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-form label {
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+
+    .contact-form button {
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      background-color: #6f4e44;
+      color: white;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #5b3e3a;
+    }
+
+    .credits {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo"></div>
+  <nav>
+    <a href="kj.html">Home</a>
+    <a href="wayayo.html">The Seven Events</a>
+    <a href="kuyagood.html">Gallery</a>
+    <a href="bright.html">Timeline</a>
+    <a href="bobo.html">About</a>
+    <a href="wow.html">Contact</a>
+
+  </nav>
+</header>
+
+<section class="contact">
+  <h2>Contact Us</h2>
+  <p>We value your feedback and inquiries. Please fill out the form below to reach out to us with any questions, suggestions, or comments you may have. We'll do our best to respond as quickly as possible!</p>
+  
+  <form class="contact-form" action="your-server-endpoint" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="credits">
+    <h3>Credits</h3>
+    <p>Website designed by S.D.D.B</p>
+    <p>Images and content sourced from various historical archives. Special thanks to [any specific sources or contributors you want to acknowledge].</p>
+  </div>
+</section>
+
+</body>
+</html>
